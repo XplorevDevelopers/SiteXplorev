@@ -14,7 +14,7 @@ body {
 h1, h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	margin:0 0 15px 0;
+	margin:40px 0 15px 0;
 }
 
 
@@ -54,21 +54,28 @@ p {
 
 }
 */
+.logo{
+
+
+
+}
+
 .active {
 	background: #3B5323;
 }
 .clear {
 	clear: both;
 }
-.wrap {
+ .wrap {
 		/*background:url(../images/bg.png) top left repeat-x;*/
 		width: 100%;
-		max-width: 1140px;
-		min-width: 960px;
+		max-width: 1500px;
+		min-width: 90px;
 		z-index: 10;
 		position: relative;
 		margin: 0 auto;
 		padding: 0;
+
 
 }
 
@@ -76,12 +83,12 @@ p {
 
 .section {
 	width: 100%;
-	max-width: 1140px;
+	max-width: 1500px;
 	min-width: 960px;
 	z-index: 10;
 	position: relative;
 	margin: 0 auto;
-	padding: 0 0 20px 0;
+	padding: 0 0 40px 0;
 }
 
 
@@ -101,11 +108,11 @@ p {
 /* This is the selector i used for my menu, it needs to be set as position:absolute; */
 .subMenu {
 	position: absolute;
-	top: 462px;
+	top: 0px;
 	height: 50px;
-	z-index: 1000;
+	z-index: 100;
 	width: 100%;
-	max-width: 1140px;
+	max-width: 1500px;
 	min-width: 960px;
 	background: #aabd46;
 
@@ -128,7 +135,7 @@ p {
 	margin: 0px 0px 0 0;
 	text-decoration: none;
 	font-size: 14px;
-	padding: 15px 2% 0 2%;
+	padding: 15px 2% 0px 2%;
 	text-align: center;
 	color: #fff;
 }
